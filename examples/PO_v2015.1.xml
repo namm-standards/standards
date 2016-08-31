@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NAMM_PO version="2015.1" xmlns="http://namm.org/b2b/2015/schemas" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://namm.org/b2b/2015/schemas PO_v2015.1.xsd">
+
+<Id>11383</Id>
+<Timestamp>2013-12-20T10:20:06</Timestamp>
+<POHeader>
+<SoldTo>
+<PartyId>000010298975</PartyId>
+<Name>Bill's Music</Name>
+<Address>
+<Attn></Attn>
+<Address1>1 Main St</Address1>
+<City>New York</City>
+<State>NY</State>
+<PostalCode>11101</PostalCode>
+<Country>USA</Country>
+<CountryCode>US</CountryCode>
+</Address>
+</SoldTo>
+<BillTo>
+<PartyId>000010298975</PartyId>
+<Name>Bill's Music</Name>
+<Address>
+<Attn></Attn>
+<Address1>1 Main St</Address1>
+<City>New York</City>
+<State>NY</State>
+<PostalCode>11101</PostalCode>
+<Country>USA</Country>
+<CountryCode>US</CountryCode>
+</Address>
+</BillTo>
+<BuyerOrderId>65642X</BuyerOrderId>
+<Supplier>
+<PartyId>0670716000009</PartyId>
+<Name>Korg USA, Inc.</Name>
+<Address>
+</Address>
+</Supplier>
+<TermsCode>P001</TermsCode>
+<TranspCode>S023</TranspCode>
+<DateOrdered>2013-12-20</DateOrdered>
+<Backorder>Y</Backorder>
+<PORevisionNumber>0</PORevisionNumber>
+<POStatusIndicator>N</POStatusIndicator>
+<ASNRequirement>Y</ASNRequirement>
+<POFileType>P</POFileType>
+<ShipTo>
+<PartyId>098765432123</PartyId>
+<Name>Bill's Music</Name>
+<Address>
+<Address1>1 Main St</Address1>
+<Address2></Address2>
+<City>New York</City>
+<State>NY</State>
+<PostalCode>11101</PostalCode>
+</Address>
+</ShipTo>
+</POHeader>
+<PODetail>
+<Items>
+<Item>
+<POLineNbr>1</POLineNbr>
+<BuyerItemId>MAA207</BuyerItemId>
+<BuyerItemDesc>Vox amPlug Twin Headphone Amp</BuyerItemDesc>
+<Qty>1</Qty>
+<QtyUOM>EA</QtyUOM>
+<UCValue>55.00</UCValue>
+<UCCurrencyCode>USD</UCCurrencyCode>
+<SupplierItemId>APTW</SupplierItemId>
+<BarCodeId>4959112088023</BarCodeId>
+<BarCodeType>GTIN-12</BarCodeType>
+</Item>
+<Item>
+<POLineNbr>2</POLineNbr>
+<BuyerItemId>MAA055</BuyerItemId>
+<BuyerItemDesc>Vox AmPlug Headphone Guitar Amp, Classic Rock</BuyerItemDesc>
+<Qty>1</Qty>
+<QtyUOM>EA</QtyUOM>
+<UCValue>99.00</UCValue>
+<UCCurrencyCode>USD</UCCurrencyCode>
+<SupplierItemId>APCR</SupplierItemId>
+<BarCodeId>4959112057630</BarCodeId>
+<BarCodeType>GTIN-12</BarCodeType>
+<TranspCode>S028</TranspCode> 
+<ShipTo>
+<PartyId></PartyId>
+<Name>Jack Smith</Name>
+<Address>
+<Address1>101 Diana Dr</Address1>
+<Address2>   </Address2>
+<City>Guyton</City>
+<State>GA</State>
+<PostalCode>31312</PostalCode>
+</Address>
+</ShipTo>
+</Item>
+</Items>
+</PODetail>
+</NAMM_PO>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://namm.org/b2b/2015/schemas">
+  <xsd:element name="NAMM_PaymentAdvice">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Id" type="xsd:string" />
+        <xsd:element name="TradingPartnerInfo">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="SenderID" type="xsd:string" />
+              <xsd:element name="SenderName" type="xsd:string" />
+              <xsd:element name="ReceiverID" type="xsd:string" />
+              <xsd:element name="ReceiverName" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Supplier">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PartyId" type="xsd:string" />
+              <xsd:element name="Name" type="xsd:string" />
+              <xsd:element name="Address">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Attn" type="xsd:string" />
+                    <xsd:element name="Address1" type="xsd:string" />
+                    <xsd:element name="Address2" type="xsd:string"/>
+                    <xsd:element name="Address3" type="xsd:string"/>
+                    <xsd:element name="City" type="xsd:string" />
+                    <xsd:element name="State" type="xsd:string" />
+                    <xsd:element name="PostalCode" type="xsd:string" />
+                    <xsd:element name="Country" type="xsd:string" />
+                    <xsd:element name="CountryCode" type="xsd:string" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="SoldTo">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PartyId" type="xsd:string" />
+              <xsd:element name="Name" type="xsd:string" />
+              <xsd:element name="Address">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Attn" type="xsd:string" />
+                    <xsd:element name="Address1" type="xsd:string" />
+                    <xsd:element name="Address2" type="xsd:string" />
+                    <xsd:element name="Address3" type="xsd:string" />
+                    <xsd:element name="City" type="xsd:string" />
+                    <xsd:element name="State" type="xsd:string" />
+                    <xsd:element name="PostalCode" type="xsd:string" />
+                    <xsd:element name="Country" type="xsd:string" />
+                    <xsd:element name="CountryCode" type="xsd:string" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="TotalPayment" type="xsd:decimal" />
+        <xsd:element name="CurrencyCode" type="xsd:string" />
+        <xsd:element name="PaymentType" type="xsd:string" />
+        <xsd:element name="PaymentDate" type="xsd:date" />
+        <xsd:element name="Reference" type="xsd:string" />
+        <xsd:element name="Timestamp" type="xsd:dateTime" />
+        <xsd:element name="BuyerName" type="xsd:string" />
+        <xsd:element name="PaymentAdvice">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="PaymentStatus">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element minOccurs="0" name="Note" type="xsd:string"/>
+                    <xsd:element name="BuyerOrderId" type="xsd:string" />
+                    <xsd:element name="DateOrdered" type="xsd:date" />
+                    <xsd:element name="PaymentAmount" type="xsd:decimal" />
+                    <xsd:element name="InvoiceNumber" type="xsd:string" />
+                    <xsd:element name="InvoiceAmount" type="xsd:decimal" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:decimal" use="required"  fixed="2015.1"/>
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

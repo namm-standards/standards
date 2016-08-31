@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NAMM_FunctionalAcknowledgement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Timestamp"
+                    type="xs:dateTime" />
+        <xs:element name="Id"
+                    type="xs:string" />
+        <xs:element name="Supplier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PartyId">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SoldTo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PartyId">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StatusCode">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="C01" />
+              <xs:enumeration value="C02" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="StatusMessage">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="10" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version"
+                    use="required"
+                    type="xs:decimal"
+                    fixed="2009.1" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

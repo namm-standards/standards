@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NAMM_PaymentAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://namm.org/b2b/2009/schemas" version="2015.1">
+  <Id>DocumentIDNumber</Id>
+  <TradingPartnerInfo>
+    <SenderID>091478008</SenderID>
+    <SenderName>GuitarCenter</SenderName>
+    <ReceiverID>MusicSupplier</ReceiverID>
+    <ReceiverName> MusicSupplier </ReceiverName>
+  </TradingPartnerInfo>
+  <Supplier>
+    <PartyId>123456789012</PartyId>
+    <Name>Korg Inc.</Name>
+    <Address>
+      <Attn />
+      <Address1>123 N Main St</Address1>
+      <Address2 />
+      <Address3 />
+      <City>Anytown</City>
+      <State>NY</State>
+      <PostalCode>10011</PostalCode>
+      <Country>United States</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </Supplier>
+  <SoldTo>
+    <PartyId>987654321012</PartyId>
+    <Name>Joe's Music Company</Name>
+    <Address>
+      <Attn />
+      <Address1>321 S Second St</Address1>
+      <Address2 />
+      <Address3 />
+      <City>MyTown</City>
+      <State>CA</State>
+      <PostalCode>90456</PostalCode>
+      <Country>United States</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </SoldTo>
+  <TotalPayment>2000.00</TotalPayment>
+  <CurrencyCode>USD</CurrencyCode>
+  <PaymentType>CHK</PaymentType>
+  <PaymentDate>06/21/2011 00:00</PaymentDate>
+  <Reference>12345</Reference>
+  <Timestamp>2011-01-15T08:58:23</Timestamp>
+  <BuyerName>Joe Schmoe</BuyerName>
+  <PaymentAdvice>
+    <PaymentStatus>
+      <Note />
+      <!--Note is Optional-->
+      <BuyerOrderId>432543</BuyerOrderId>
+      <DateOrdered>2011-01-15</DateOrdered>
+      <PaymentAmount>1088.4</PaymentAmount>
+      <InvoiceNumber>117842823</InvoiceNumber>
+      <InvoiceAmount>$1234.00</InvoiceAmount>
+    </PaymentStatus>
+    <PaymentStatus>
+      <BuyerOrderId>432544</BuyerOrderId>
+      <DateOrdered>2011-02-16</DateOrdered>
+      <PaymentAmount>911.60</PaymentAmount>
+      <InvoiceNumber>1178429845</InvoiceNumber>
+      <InvoiceAmount>911.90</InvoiceAmount>
+    </PaymentStatus>
+  </PaymentAdvice>
+</NAMM_PaymentAdvice>

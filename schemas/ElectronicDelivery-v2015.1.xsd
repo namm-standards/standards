@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" 
+           targetNamespace="http://namm.org/b2b/2015/schemas">
+  <xsd:element name="NAMM_ElectronicDeliveryResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Timestamp" type="xsd:dateTime" />
+        <xsd:element name="POId" type="xsd:string" />
+        <xsd:element name="BuyerOrderId" type="xsd:string" />
+        <xsd:element name="StatusCode" type="xsd:string" />
+        <xsd:element name="StatusMessage" type="xsd:string" />
+        <xsd:element name="Items">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="Item">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="SupplierItemId" type="xsd:string" />
+                    <xsd:element name="POLineNbr" type="xsd:int" />
+                    <xsd:element name="BarCodeId" type="xsd:string" />
+                    <xsd:element name="BarCodeType" type="xsd:string" />
+                    <xsd:element name="Qty" type="xsd:int" />
+                    <xsd:element name="QtyUOM" type="xsd:string" />
+                    <xsd:element name="UCValue" type="xsd:decimal" />
+                    <xsd:element name="UCCurrencyCode" type="xsd:string" />
+                    <xsd:element name="DownloadPath" type="xsd:string" />
+                    <xsd:element name="SupportContact" type="xsd:string" />
+                    <xsd:element name="Licenses">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="License" type="xsd:string" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:decimal" use="required" fixed="2015.1" />
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

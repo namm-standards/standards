@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_Invoice version="2009.2">
+  <InvoiceHeader>
+    <Id>S2S3050_PO691634</Id>
+    <Timestamp>2008-01-15T08:34:00</Timestamp>
+    <SoldTo>
+      <PartyId>1100001001675</PartyId>
+      <Name>Joe's Music Store</Name>
+    </SoldTo>
+    <InvoiceId>12345678</InvoiceId>
+    <InvoiceType>D</InvoiceType>
+    <Supplier>
+      <PartyId>0761294001004</PartyId>
+      <Name>Roland Corporation U.S.</Name>
+      <Address>
+        <Address1>5100 S Eastern Ave</Address1>
+        <City>Los Angeles</City>
+        <State>CA</State>
+        <PostalCode>90040</PostalCode>
+        <Country>United States</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </Supplier>
+    <RemitTo>
+      <PartyId>0761294001004</PartyId>
+      <Name>Roland Corporation U.S.</Name>
+      <Address>
+        <Attn>Accounts Receivable</Attn>
+        <Address1>5100 S Eastern Ave</Address1>
+        <City>Los Angeles</City>
+        <State>CA</State>
+        <PostalCode>90040</PostalCode>
+        <Country>United States</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </RemitTo>
+    <BillTo>
+      <PartyId>1100001001675</PartyId>
+      <Name>Joe's Music Store</Name>
+      <Address>
+        <Attn>Accounts Payable</Attn>
+        <Address1>Box 123</Address1>
+        <City>Music City</City>
+        <State>NY</State>
+        <PostalCode>12345</PostalCode>
+        <Country>United States</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </BillTo>
+    <ShipTo>
+      <PartyId>1100001001676</PartyId>
+      <Name>Joe's Music Store</Name>
+      <Address>
+        <Attn>Receiving Department</Attn>
+        <Address1>321 Main Street</Address1>
+        <City>Music City</City>
+        <State>NY</State>
+        <PostalCode>12345</PostalCode>
+        <Country>United States</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </ShipTo>
+    <TermsCode>P014</TermsCode>
+    <TranspCode>S001</TranspCode>
+    <InvoiceDate>2008-01-15</InvoiceDate>
+    <InvoiceDueDate>2008-02-14</InvoiceDueDate>
+    <BuyerName>Joe Buyer</BuyerName>
+    <SalesRep>Richard Rep</SalesRep>
+  </InvoiceHeader>
+  <InvoiceSummary>
+    <TotalItemLines>3</TotalItemLines>
+    <TotalItemQty>7</TotalItemQty>
+    <LineTotal>6626.40</LineTotal>
+    <FreightTotal>50.00</FreightTotal>
+    <SalesTax>123.45</SalesTax>
+    <MiscCharge>0.00</MiscCharge>
+    <InvoiceTotal>6676.40</InvoiceTotal>
+  </InvoiceSummary>
+  <InvoiceDetail>
+    <Items>
+      <Item>
+        <BuyerOrderId>123456</BuyerOrderId>
+        <SupplierOrderId>123456</SupplierOrderId>
+        <InvoiceLineNbr>1</InvoiceLineNbr>
+        <POLineNbr>2</POLineNbr>
+        <BuyerItemId>SD1Roland</BuyerItemId>
+        <Qty>1</Qty>
+        <QtyUOM>CTN</QtyUOM>
+        <UCValue>479.40</UCValue>
+        <UCCurrencyCode>USD</UCCurrencyCode>
+        <ExtendedCostValue>479.40</ExtendedCostValue>
+        <ExtendedCurrencyCode>USD</ExtendedCurrencyCode>
+        <SupplierItemId>SD1</SupplierItemId>
+        <SupplierItemDesc>Roland SD1</SupplierItemDesc>
+        <PackListNbr>345678</PackListNbr>
+        <ShipmentIds>
+          <ShipmentId>345678</ShipmentId>
+        </ShipmentIds>
+        <DateShipped>2008-01-15</DateShipped>
+        <BarCodeId>761294008508</BarCodeId>
+        <BarCodeType>GTIN-12</BarCodeType>
+      </Item>
+      <Item>
+        <BuyerOrderId>123456</BuyerOrderId>
+        <SupplierOrderId>123456</SupplierOrderId>
+        <InvoiceLineNbr>2</InvoiceLineNbr>
+        <POLineNbr>1</POLineNbr>
+        <BuyerItemId>FX6</BuyerItemId>
+        <Qty>4</Qty>
+        <QtyUOM>EA</QtyUOM>
+        <UCValue>1437.00</UCValue>
+        <UCCurrencyCode>USD</UCCurrencyCode>
+        <ExtendedCostValue>5748.00</ExtendedCostValue>
+        <ExtendedCurrencyCode>USD</ExtendedCurrencyCode>
+        <SupplierItemId>FantomX6</SupplierItemId>
+        <SupplierItemDesc>Fantom X6 Keyboard</SupplierItemDesc>
+        <PackListNbr>345678</PackListNbr>
+        <ShipmentIds>
+          <ShipmentId>345678</ShipmentId>
+        </ShipmentIds>
+        <DateShipped>2008-01-15</DateShipped>
+        <BarCodeId>761294084991</BarCodeId>
+        <BarCodeType>GTIN-12</BarCodeType>
+      </Item>
+      <Item>
+        <BuyerOrderId>123456</BuyerOrderId>
+        <SupplierOrderId>123456</SupplierOrderId>
+        <InvoiceLineNbr>3</InvoiceLineNbr>
+        <POLineNbr>3</POLineNbr>
+        <BuyerItemId>FXBook</BuyerItemId>
+        <Qty>2</Qty>
+        <QtyUOM>CTN</QtyUOM>
+        <UCValue>199.50</UCValue>
+        <UCCurrencyCode>USD</UCCurrencyCode>
+        <ExtendedCostValue>399.00</ExtendedCostValue>
+        <ExtendedCurrencyCode>USD</ExtendedCurrencyCode>
+        <SupplierItemId>FantomXBook</SupplierItemId>
+        <SupplierItemDesc>Fantom X Hidden
+        Secrets</SupplierItemDesc>
+        <PackListNbr>345678</PackListNbr>
+        <ShipmentIds>
+          <ShipmentId>345678</ShipmentId>
+        </ShipmentIds>
+        <DateShipped>2008-01-15</DateShipped>
+        <BarCodeId>761294001233</BarCodeId>
+        <BarCodeType>GTIN-12</BarCodeType>
+      </Item>
+    </Items>
+  </InvoiceDetail>
+</NAMM_Invoice>

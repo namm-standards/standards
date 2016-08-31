@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:t="http://namm.org/b2b/2015/schemas" 
+            targetNamespace="http://namm.org/b2b/2015/schemas" elementFormDefault="qualified">
+
+  <xsd:element name="NAMM_PO">
+    <xsd:complexType>
+      <xsd:complexContent>
+        <xsd:restriction base="xsd:anyType">
+          <xsd:sequence>
+            <xsd:element name="Id">
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="50" />
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="Timestamp" type="xsd:dateTime" />
+            <xsd:element name="POHeader">
+              <xsd:complexType>
+                <xsd:complexContent>
+                  <xsd:restriction base="xsd:anyType">
+                    <xsd:sequence>
+                      <xsd:element name="SoldTo">
+                        <xsd:complexType>
+                          <xsd:complexContent>
+                            <xsd:restriction base="xsd:anyType">
+                              <xsd:sequence>
+                                <xsd:element name="PartyId">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="50" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Name" minOccurs="0">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="35" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Address">
+                                  <xsd:complexType>
+                                    <xsd:complexContent>
+                                      <xsd:restriction base="xsd:anyType">
+                                        <xsd:sequence>
+                                          <xsd:element name="Attn" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address1" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address2" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address3" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="City" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="30" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="State" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="PostalCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="9" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Country" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="50" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="CountryCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                        </xsd:sequence>
+                                      </xsd:restriction>
+                                    </xsd:complexContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:restriction>
+                          </xsd:complexContent>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="BillTo">
+                        <xsd:complexType>
+                          <xsd:complexContent>
+                            <xsd:restriction base="xsd:anyType">
+                              <xsd:sequence>
+                                <xsd:element name="PartyId">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="50" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Name" minOccurs="0">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="35" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Address">
+                                  <xsd:complexType>
+                                    <xsd:complexContent>
+                                      <xsd:restriction base="xsd:anyType">
+                                        <xsd:sequence>
+                                          <xsd:element name="Attn" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address1" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address2" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address3" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="City" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="30" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="State" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="PostalCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="9" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Country" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="50" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="CountryCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                        </xsd:sequence>
+                                      </xsd:restriction>
+                                    </xsd:complexContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:restriction>
+                          </xsd:complexContent>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="BuyerOrderId">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="25" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="Supplier">
+                        <xsd:complexType>
+                          <xsd:complexContent>
+                            <xsd:restriction base="xsd:anyType">
+                              <xsd:sequence>
+                                <xsd:element name="PartyId">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="50" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Name" minOccurs="0">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="35" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Address">
+                                  <xsd:complexType>
+                                    <xsd:complexContent>
+                                      <xsd:restriction base="xsd:anyType">
+                                        <xsd:sequence>
+                                          <xsd:element name="Attn" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address1" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address2" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address3" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="City" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="30" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="State" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="PostalCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="9" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Country" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="50" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="CountryCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                        </xsd:sequence>
+                                      </xsd:restriction>
+                                    </xsd:complexContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:restriction>
+                          </xsd:complexContent>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="TermsCode">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="15" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="TermsDays" type="xsd:integer" minOccurs="0" />
+                      <xsd:element name="TermsDate" type="xsd:date" minOccurs="0" />
+                      <xsd:element name="TermsPercent" type="xsd:decimal" minOccurs="0" />
+                      <xsd:element name="TermsPercentDays" type="xsd:integer" minOccurs="0" />
+                      <xsd:element name="ShipInstructions" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="250" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="TranspCode">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="15" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="TranspDesc" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="50" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="TranspCarrier" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="15" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="TranspTime" type="xsd:integer" minOccurs="0" />
+                      <xsd:element name="TranspTerms" type="xsd:string" minOccurs="0" />
+                      <xsd:element name="IncoTermsCode" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="3" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="IncoTermsDesc" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="35" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="POComments" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="250" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="DateOrdered" type="xsd:date" />
+                      <xsd:element name="DateBeginShip" type="xsd:date" minOccurs="0" />
+                      <xsd:element name="DateEndShip" type="xsd:date" minOccurs="0" />
+                      <xsd:element name="DateCancel" type="xsd:date" minOccurs="0" />
+                      <xsd:element name="Backorder">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="Y|N" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="BuyerName" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="35" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="PORevisionNumber" type="xsd:integer" />
+                      <xsd:element name="POStatusIndicator">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="N|U" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="ASNRequirement">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="Y|N" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="POFileType">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="P|A" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element name="ShipTo">
+                        <xsd:complexType>
+                          <xsd:complexContent>
+                            <xsd:restriction base="xsd:anyType">
+                              <xsd:sequence>
+                                <xsd:element name="PartyId">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="50" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Name" minOccurs="0">
+                                  <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                      <xsd:maxLength value="35" />
+                                    </xsd:restriction>
+                                  </xsd:simpleType>
+                                </xsd:element>
+                                <xsd:element name="Address">
+                                  <xsd:complexType>
+                                    <xsd:complexContent>
+                                      <xsd:restriction base="xsd:anyType">
+                                        <xsd:sequence>
+                                          <xsd:element name="Attn" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address1" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address2" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Address3" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="35" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="City" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="30" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="State" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="PostalCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="9" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Country" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="50" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="CountryCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="2" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                        </xsd:sequence>
+                                      </xsd:restriction>
+                                    </xsd:complexContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:restriction>
+                          </xsd:complexContent>
+                        </xsd:complexType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:restriction>
+                </xsd:complexContent>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="PODetail">
+              <xsd:complexType>
+                <xsd:complexContent>
+                  <xsd:restriction base="xsd:anyType">
+                    <xsd:sequence>
+                      <xsd:element name="Items">
+                        <xsd:complexType>
+                          <xsd:complexContent>
+                            <xsd:restriction base="xsd:anyType">
+                              <xsd:sequence>
+                                <xsd:element name="Item" maxOccurs="unbounded">
+                                  <xsd:complexType>
+                                    <xsd:complexContent>
+                                      <xsd:restriction base="xsd:anyType">
+                                        <xsd:sequence>
+                                          <xsd:element name="POLineNbr" type="xsd:integer" />
+                                          <xsd:element name="BuyerItemId">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="25" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="BuyerItemDesc" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="50" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="Qty" type="xsd:decimal" />
+                                          <xsd:element name="QtyUOM">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="5" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="UCValue" type="xsd:decimal" />
+                                          <xsd:element name="UCCurrencyCode">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="3" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="RetailValue" type="xsd:decimal" minOccurs="0" />
+                                          <xsd:element name="RetailCurrencyCode" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="3" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="ICQtyPerUOM" type="xsd:decimal" minOccurs="0" />
+                                          <xsd:element name="ICUOM" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="5" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="MCQtyPerUOM" type="xsd:decimal" minOccurs="0" />
+                                          <xsd:element name="MCUOM" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="5" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="SupplierItemId" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="25" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="BarCodeId">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:maxLength value="14" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="BarCodeType" minOccurs="0">
+                                            <xsd:simpleType>
+                                              <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration value="GTIN-12" />
+                                                <xsd:enumeration value="GTIN-13" />
+                                                <xsd:enumeration value="GTIN-14" />
+                                                <xsd:enumeration value="PartNumber" />
+                                              </xsd:restriction>
+                                            </xsd:simpleType>
+                                          </xsd:element>
+                                          <xsd:element name="DateBeginShip" type="xsd:date" minOccurs="0" />
+                                          <xsd:element name="DateEndShip" type="xsd:date" minOccurs="0" />
+                                          <xsd:element name="DateCancel" type="xsd:date" minOccurs="0" />
+
+			<xsd:element name="TranspCode" minOccurs="0">
+                        <xsd:simpleType>
+                          <xsd:restriction base="xsd:string">
+                            <xsd:maxLength value="15" />
+                          </xsd:restriction>
+                        </xsd:simpleType>
+                      </xsd:element>
+
+					<xsd:element name="ShipTo" minOccurs="0">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="PartyId">
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="50"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="Name" minOccurs="0">
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="35"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="Address">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="Attn" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="35"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="Address1" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="35"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="Address2" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="35"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="Address3" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="35"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="City" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="30"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="State" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="2"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="PostalCode" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="9"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="Country" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="50"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="CountryCode" minOccurs="0">
+														<xsd:simpleType>
+															<xsd:restriction base="xsd:string">
+																<xsd:maxLength value="2"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+                                        </xsd:sequence>
+                                      </xsd:restriction>
+                                    </xsd:complexContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:restriction>
+                          </xsd:complexContent>
+                        </xsd:complexType>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:restriction>
+                </xsd:complexContent>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="version" type="xsd:decimal" use="required" fixed="2015.1" />
+        </xsd:restriction>
+      </xsd:complexContent>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

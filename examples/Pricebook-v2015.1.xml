@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_PRICEBOOK version="2015.1">
+  <Id>S2S3050_PO691630</Id>
+  <Timestamp>2011-07-19T08:23:30</Timestamp>
+  <Supplier>
+    <PartyId />
+    <Name />
+    <Address>
+      <Address1 />
+      <Address2 />
+      <Address3 />
+      <City />
+      <State />
+      <PostalCode />
+      <Country />
+      <CountryCode />
+    </Address>
+  </Supplier>
+  <SoldTo>
+    <PartyId />
+    <Name />
+    <Address>
+      <Address1 />
+      <Address2 />
+      <Address3 />
+      <City />
+      <State />
+      <PostalCode />
+      <Country />
+      <CountryCode />
+    </Address>
+  </SoldTo>
+  <Items>
+    <Item EffectiveDate="2011-07-19T08:23:30">
+      <BarCodeId>761294084991</BarCodeId>
+      <BarCodeType>GTIN-12</BarCodeType>
+      <SupplierItemId>FantomX6</SupplierItemId>
+      <Levels>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">100.00</Price>
+          <LevelMin>1</LevelMin>
+          <LevelMax>10</LevelMax>
+          <LevelUOM type="Item">EA</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">90.00</Price>
+          <LevelMin>11</LevelMin>
+          <LevelMax>20</LevelMax>
+          <LevelUOM type="Item">EA</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">80.00</Price>
+          <LevelMin>21</LevelMin>
+          <LevelMax>30</LevelMax>
+          <LevelUOM type="Item">EA</LevelUOM>
+        </Level>
+      </Levels>
+    </Item>
+    <Item EffectiveDate="2011-07-19T08:23:30">
+      <BarCodeId>761294084974</BarCodeId>
+      <BarCodeType>GTIN-12</BarCodeType>
+      <SupplierItemId>PhantomEx6</SupplierItemId>
+      <Levels>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">100.00</Price>
+          <LevelMin>1</LevelMin>
+          <LevelMax>1000</LevelMax>
+          <LevelUOM type="Order">USD</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">90.00</Price>
+          <LevelMin>1001</LevelMin>
+          <LevelMax>5000</LevelMax>
+          <LevelUOM type="Order">USD</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">80.00</Price>
+          <LevelMin>5001</LevelMin>
+          <LevelMax>10001</LevelMax>
+          <LevelUOM type="Order">USD</LevelUOM>
+        </Level>
+      </Levels>
+    </Item>
+    <Item EffectiveDate="2011-07-19T08:23:30">
+      <BarCodeId>761294084821</BarCodeId>
+      <BarCodeType>GTIN-12</BarCodeType>
+      <SupplierItemId>Fantom TShirt</SupplierItemId>
+      <Levels>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">10.00</Price>
+          <LevelMin>1</LevelMin>
+          <LevelMax>10</LevelMax>
+          <LevelUOM type="Family">EA</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">9.00</Price>
+          <LevelMin>11</LevelMin>
+          <LevelMax>20</LevelMax>
+          <LevelUOM type="Family">EA</LevelUOM>
+        </Level>
+        <Level>
+          <Price Currency="USD"
+                 type="Cost">8.00</Price>
+          <LevelMin>21</LevelMin>
+          <LevelMax>30</LevelMax>
+          <LevelUOM type="Family">EA</LevelUOM>
+        </Level>
+      </Levels>
+    </Item>
+  </Items>
+</NAMM_PRICEBOOK> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_POStatusRequest version="2015.1">
+  <Timestamp>2011-07-19T10:34:02</Timestamp>
+  <Id>S2S3050_PO691630-1</Id>
+  <Supplier>
+    <PartyId>0761294001004</PartyId>
+  </Supplier>
+  <SoldTo>
+    <PartyId>1100001001675</PartyId>
+  </SoldTo>
+  <BuyerOrderIds>
+    <BuyerOrderId>123456</BuyerOrderId>
+    <BuyerOrderId>987654</BuyerOrderId>
+    <BuyerOrderId>654321</BuyerOrderId>
+  </BuyerOrderIds>
+</NAMM_POStatusRequest> 

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://namm.org/b2b/2015/schemas"
+           targetNamespace="http://namm.org/b2b/2015/schemas" elementFormDefault="qualified">
+  <xs:element name="NAMM_SELLTHROUGH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Id"
+                    type="xs:string" />
+        <xs:element name="Timestamp"
+                    type="xs:dateTime" />
+        <xs:element name="StartDate"
+                    type="xs:date" />
+        <xs:element name="EndDate"
+                    type="xs:date" />
+        <xs:element name="SoldTo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PartyId"
+                          type="xs:string" />
+              <xs:element name="Name"
+                          type="xs:string"
+                          minOccurs="0" />
+              <xs:element name="Address"
+                          minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Attn"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address1"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address2"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address3"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="City"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="State"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="PostalCode"
+                                minOccurs="0"
+                                type="xs:int" />
+                    <xs:element name="Country"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="CountryCode"
+                                minOccurs="0"
+                                type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Supplier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PartyId"
+                          type="xs:string" />
+              <xs:element name="Name"
+                          type="xs:string"
+                          minOccurs="0" />
+              <xs:element name="Address"
+                          minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Attn"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address1"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address2"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="Address3"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="City"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="State"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="PostalCode"
+                                minOccurs="0"
+                                type="xs:int" />
+                    <xs:element name="Country"
+                                minOccurs="0"
+                                type="xs:string" />
+                    <xs:element name="CountryCode"
+                                minOccurs="0"
+                                type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Locations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Location">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Items">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Item">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="BuyerItemId"
+                                             type="xs:string" />
+                                <xs:element name="SupplierItemId"
+                                             type="xs:string" />
+                                <xs:element name="BarCodeId"
+                                             type="xs:decimal" />
+                                <xs:element name="BarCodeType"
+                                             type="xs:string" />
+                                <xs:element name="Qty"
+                                             type="xs:int" />
+                                <xs:element name="QtyUOM"
+                                             type="xs:string" />
+                                <xs:element name="SalesTotal"
+                                             type="xs:int" />
+                                <xs:element name="SalesTotalCurrencyCode"
+                                             type="xs:string" />
+                                <xs:element name="QtyOnHand" minOccurs="0"
+                                             type="xs:int" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="LocationID"
+                                 type="xs:decimal" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version"
+                    use="required"
+                    type="xs:decimal"
+                    fixed="2012.1" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

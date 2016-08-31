@@ -1,0 +1,125 @@
+<NAMM_ASN xmlns="http://namm.org/b2b/2015/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2015.1" xsi:schemaLocation="http://namm.org/b2b/2015/schemas ASN_v2015.1.xsd">
+  <Id>BE4CA503-7E4C-4279-AE50-67868B28A5A3</Id>
+  <Timestamp>2013-04-12T22:53:22.86</Timestamp>
+  <ShipmentHeader>
+    <ShipmentType>00</ShipmentType>
+    <ShipmentId>KO0700585894</ShipmentId>
+    <Shipped>2013-04-12</Shipped>
+    <EstDeliver>2013-04-15</EstDeliver>
+    <Supplier>
+      <PartyId>0670716000009</PartyId>
+      <Name>Korg USA Inc.</Name>
+      <Address>
+        <Address1>316 S Service Rd</Address1>
+        <City>Melville</City>
+        <State>NY</State>
+        <PostalCode>11747</PostalCode>
+        <Country>USA</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </Supplier>
+    <ShipFrom>
+      <PartyId>0670716000009</PartyId>
+      <Name>Korg USA Inc.</Name>
+      <Address>
+        <Address1>316 S Service Rd</Address1>
+        <City>Melville</City>
+        <State>NY</State>
+        <PostalCode>11747</PostalCode>
+        <Country>USA</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </ShipFrom>
+    <ShipmentRefs>
+      <MasterBOL>1Y750E</MasterBOL>
+      <PRONbr />
+    </ShipmentRefs>
+    <ShipmentQty>
+      <ContainerQty>1</ContainerQty>
+      <ShipmentItemQty>2</ShipmentItemQty>
+    </ShipmentQty>
+    <Volume>
+      <VolumeValue>0</VolumeValue>
+      <VolumeUOMCode>CF</VolumeUOMCode>
+    </Volume>
+    <Weight>
+      <WeightValue>8.45</WeightValue>
+      <WeightUOMCode>LB</WeightUOMCode>
+    </Weight>
+    <TranspCode>UPSN</TranspCode>
+    <SoldTo>
+      <PartyId>080999876543</PartyId>
+      <Name>Bill's Music</Name>
+      <Address>
+        <Address1>715 Main St</Address1>
+        <Address2 />
+        <City>PLAINFIELD</City>
+        <State>IN</State>
+        <PostalCode>46168</PostalCode>
+        <Country>USA</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </SoldTo>
+    <ShipTo>
+      <PartyId>8014531</PartyId>
+      <Name>Bill's Music</Name>
+      <Address>
+        <Address1>715 Main St</Address1>
+        <Address2 />
+        <City>PLAINFIELD</City>
+        <State>IN</State>
+        <PostalCode>46168</PostalCode>
+        <Country>USA</Country>
+        <CountryCode>US</CountryCode>
+      </Address>
+    </ShipTo>
+    <Vehicle>
+      <VehicleType>Trailer</VehicleType>
+    </Vehicle>
+  </ShipmentHeader>
+  <Orders>
+    <Order>
+      <BuyerOrderId>Z76198XX</BuyerOrderId>
+      <Containers>
+        <Container>
+          <ContainerId>00006707160007709691</ContainerId>
+          <ShipperTrackingNumber>1Z1418710390269034</ShipperTrackingNumber>
+
+          <Length>3.2600</Length>
+          <Width>5.2300</Width>
+          <Height>1.2200</Height>
+          <DimUOM>IN</DimUOM>
+          <Weight>8.45</Weight>
+          <WeightUOM>LBS</WeightUOM>
+
+          <Item>
+            <ItemId>
+              <BarCodeId>4959112080911</BarCodeId>
+              <BarCodeType>GTIN-13</BarCodeType>
+              <BuyerItemId />
+              <SupplierItemId>TONELABEX</SupplierItemId>
+            </ItemId>
+            <POLineNbr>3</POLineNbr>
+            <ItemQty>
+              <Qty>1</Qty>
+              <ItemUOMCode>EA</ItemUOMCode>
+            </ItemQty>
+          </Item>
+          <Item>
+            <ItemId>
+              <BarCodeId>0845644000296</BarCodeId>
+              <BarCodeType>GTIN-13</BarCodeType>
+              <BuyerItemId />
+              <SupplierItemId>HTSTUD20C</SupplierItemId>
+            </ItemId>
+            <POLineNbr>4</POLineNbr>
+            <ItemQty>
+              <Qty>1</Qty>
+              <ItemUOMCode>EA</ItemUOMCode>
+            </ItemQty>
+          </Item>
+        </Container>
+      </Containers>
+    </Order>
+  </Orders>
+</NAMM_ASN>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_FunctionalAcknowledgement version="2009.1">
+  <Timestamp>2008-01-14T10:34:02</Timestamp>
+  <Id>S2S3050_PO691630-1</Id>
+  <Supplier>
+    <PartyId>0761294001004</PartyId>
+  </Supplier>
+  <SoldTo>
+    <PartyId>1100001001675</PartyId>
+  </SoldTo>
+  <StatusCode>C01</StatusCode>
+  <StatusMessage>Received</StatusMessage>
+</NAMM_FunctionalAcknowledgement>

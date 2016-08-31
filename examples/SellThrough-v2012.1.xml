@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_SELLTHROUGH version="2012.1">
+  <Id>S2S3050_PO691630</Id>
+  <Timestamp>2011-07-19T08:23:30</Timestamp>
+  <StartDate>2011-07-20</StartDate>
+  <EndDate>2011-08-29</EndDate>
+  <SoldTo>
+    <PartyId>1100001001675</PartyId>
+    <Name>Joe's Music Store</Name>
+    <Address>
+      <Attn>Joe Owner</Attn>
+      <Address1>321 Main Street</Address1>
+      <City>Music City</City>
+      <State>NY</State>
+      <PostalCode>12345</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </SoldTo>
+  <Supplier>
+    <PartyId>0761294001004</PartyId>
+    <Name>Roland Corporation US</Name>
+    <Address>
+      <Address1>5100 S. Eastern Ave.</Address1>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <PostalCode>90040</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </Supplier>
+  <Locations>
+    <Location LocationID="1100001001675">
+      <Items>
+        <Item>
+          <BuyerItemId>SD1Roland</BuyerItemId>
+          <SupplierItemId>FantomX6</SupplierItemId>
+          <BarCodeId>761294084991</BarCodeId>
+          <BarCodeType>GTIN-12</BarCodeType>
+          <Qty>4</Qty>
+          <QtyUOM>EA</QtyUOM>
+          <SalesTotal>1437</SalesTotal>
+          <SalesTotalCurrencyCode>USD</SalesTotalCurrencyCode>
+          <QtyOnHand>2</QtyOnHand> <!-- Optional -->
+        </Item>
+      </Items>
+    </Location>
+  </Locations>
+</NAMM_SELLTHROUGH>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NAMM_PARTY version="2009.1">
+  <RevisionDate>2008-08-13T08:32:00</RevisionDate>
+  <TradingPartner>
+    <PartyId>NAMM000000123999*00000</PartyId>
+    <PartyIdType>NAMM</PartyIdType>
+    <Name>Roland Corporation U.S.</Name>
+    <URL>http://www.rolandus.com</URL>
+    <Locations>
+      <Location>
+        <PartyId>NAMM000000123999*00001</PartyId>
+        <PartyIdType>NAMM</PartyIdType>
+        <Description>Main</Description>
+        <Name>Roland Corporation U.S.</Name>
+        <Address>
+          <Address1>5100 S. Eastern Ave.</Address1>
+          <City>Los Angeles</City>
+          <State>CA</State>
+          <PostalCode>90040</PostalCode>
+          <Country>USA</Country>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phone>3238903700</Phone>
+        <Fax>3238903701</Fax>
+        <Email>sales@rolandus.com</Email>
+      </Location>
+      <Location>
+        <PartyId>NAMM000000123999*00002</PartyId>
+        <PartyIdType>NAMM</PartyIdType>
+        <Description>Shipping Receiving</Description>
+        <Name>Roland Corporation U.S.</Name>
+        <Address>
+          <Attn />
+          <Address1>4901 Alexander Street</Address1>
+          <City>Los Angeles</City>
+          <State>CA</State>
+          <PostalCode>90040</PostalCode>
+          <Country>USA</Country>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phone>3238903700</Phone>
+        <Fax>3238903701</Fax>
+        <Email>receiving@rolandus.com</Email>
+      </Location>
+    </Locations>
+  </TradingPartner>
+</NAMM_PARTY>

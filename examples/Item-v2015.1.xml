@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<NAMM_ITEM xmlns="http://namm.org/b2b/2015/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2015.1" xsi:schemaLocation="http://namm.org/b2b/2015/schemas Item_v2015.1.xsd">
+  <Timestamp>2014-10-18T15:52:29.073</Timestamp>
+  <Id>03C8CA92-6413-4B7E-B5B1-F6903AD8327A</Id>
+  <SupplierId>0670716000009</SupplierId>
+  <Items>
+    <Item>
+      <SupplierItemId>SP170WH</SupplierItemId>
+      <SupplierModel>SP170WH</SupplierModel>
+      <SupplierItemDesc>Piano, pure and simple</SupplierItemDesc>
+      <Kit>N</Kit>
+      <Serialized>Y</Serialized>
+      <BrandName>KORG</BrandName>
+      <CountryOrigin>CN</CountryOrigin>
+      <Length>0.0000</Length>
+      <Width>0.0000</Width>
+      <Height>0.0000</Height>
+      <DimUOM>IN</DimUOM>
+      <Weight>0</Weight>
+      <WeightUOM>LBS</WeightUOM>
+      <AnnounceDate>2009-12-15</AnnounceDate>
+      <AvailableDate>2009-12-15</AvailableDate>
+      <UnavailableDate>2011-05-23</UnavailableDate>
+      <WarrantyPartTerm>365</WarrantyPartTerm>
+      <WarrantyPartUOM>Day</WarrantyPartUOM>
+      <WarrantyLabTerm>0</WarrantyLabTerm>
+      <WarrantyLabUOM>Day</WarrantyLabUOM>
+      <Barcodes>
+        <Barcode>
+          <ID>4959112073463</ID>
+          <Type>GTIN-13</Type>
+        </Barcode>
+      </Barcodes>
+      <Pricing>
+        <Price type="MSRP" Currency="USD">600.00</Price>
+        <Price type="MAP" Currency="USD">500.00</Price>
+        <Price type="Cost" Currency="USD" Qty="1">250.00</Price>
+      </Pricing>
+      <Containers>
+        <Container>
+          <Type>Each</Type>
+          <Length>57.2500</Length>
+          <Width>17.2500</Width>
+          <Height>8.2500</Height>
+          <DimUOM>IN</DimUOM>
+          <Weight>33.7500</Weight>
+          <WeightUOM>LBS</WeightUOM>
+          <UOM>EA</UOM>
+          <QtyPerUOM>1</QtyPerUOM>
+          <Barcodes>
+            <Barcode>
+              <ID>4959112073463</ID>
+              <Type>GTIN-13</Type>
+            </Barcode>
+          </Barcodes>
+        </Container>
+      </Containers>
+      <MarketingInfo>
+        <PrimaryCategory>4018162506</PrimaryCategory>
+        <ProductURL>www.korg.com/sp170</ProductURL>
+        <ItemDescLong>Offering an affordable, portable and rewarding piano solution, the streamlined SP-170 features an authentic piano feel and 10 captivating sounds - including two superb grands - to satisfy the student, novice, or seasoned player. The clean, fresh design omits the traditional control panel, emphasizing instead the comfortable keyboard and satisfying sound.</ItemDescLong>
+        <Bullets>
+          <Bullet>Korg's 88-key Natural Weighted Hammer Action (NH) keyboard offers a true piano touch</Bullet>
+          <Bullet>10 Sounds: Piano x 2; E. Piano x 2; Harpsichord; Clavi; Vibraphone; Pipe Organ; Jazz Organ; Strings</Bullet>
+          <Bullet>Reverb + Chorus effects; Transpose; Pitch Control; MIDI functions (MIDI Out); Damper pedal included</Bullet>
+          <Bullet>Built-in sound system: 9 Watt stereo amplifier, 2 full-range speakers; 2 line/headphone outputs</Bullet>
+          <Bullet>Elegant white finish; optional matching wooden stand (SPST-1W-WH) available</Bullet>
+        </Bullets>
+        <Media>
+          <Images>
+            <Image Audience="Consumer" View="Primary">http://dealers.korgusa.com/images/product/SP170WH.png</Image>
+          </Images>
+        </Media>
+      </MarketingInfo>
+      <RelatedItems>
+        <RelatedItem included="Y" type="accessory">
+          <SupplierItemId>405016000</SupplierItemId>
+          <Barcode>
+            <ID>4959112073463</ID>
+            <Type>GTIN-13</Type>
+          </Barcode>
+        </RelatedItem>
+        <RelatedItem included="Y" type="accessory">
+          <SupplierItemId>500600006510</SupplierItemId>
+          <Barcode>
+            <ID>4959112073463</ID>
+            <Type>GTIN-13</Type>
+          </Barcode>
+        </RelatedItem>
+        <RelatedItem included="N" type="accessory">
+          <SupplierItemId>510C9018</SupplierItemId>
+          <Barcode>
+            <ID>4959112073463</ID>
+            <Type>GTIN-13</Type>
+          </Barcode>
+        </RelatedItem>
+      </RelatedItems>
+      <Availability>
+        <Available>YES</Available>
+      </Availability>
+    </Item>
+
+    <Item>
+      <SupplierItemId>SPST1WWH</SupplierItemId>
+      <SupplierModel>SPST1WWH</SupplierModel>
+      <SupplierItemDesc>White stand for SP170WH</SupplierItemDesc>
+      <Kit>N</Kit>
+      <KitComponentOnly>Y</KitComponentOnly>
+      <Serialized>N</Serialized>
+      <BrandName>KORG</BrandName>
+      <CountryOrigin>CN</CountryOrigin>
+      <Length>0.0000</Length>
+      <Width>0.0000</Width>
+      <Height>0.0000</Height>
+      <DimUOM>IN</DimUOM>
+      <Weight>0</Weight>
+      <WeightUOM>LBS</WeightUOM>
+      <AnnounceDate>2009-12-15</AnnounceDate>
+      <AvailableDate>2009-12-15</AvailableDate>
+      <WarrantyPartTerm>365</WarrantyPartTerm>
+      <WarrantyPartUOM>Day</WarrantyPartUOM>
+      <WarrantyLabTerm>0</WarrantyLabTerm>
+      <WarrantyLabUOM>Day</WarrantyLabUOM>
+      <Barcodes>
+        <Barcode>
+          <ID>4959112073487</ID>
+          <Type>GTIN-13</Type>
+        </Barcode>
+      </Barcodes>
+      <Pricing>
+        <Price type="MSRP" Currency="USD">125.00</Price>
+        <Price type="MAP" Currency="USD">62.00</Price>
+        <Price type="Cost" Currency="USD" Qty="1">31.00</Price>
+      </Pricing>
+      <Containers>
+        <Container>
+          <Type>Each</Type>
+          <Length>57.2500</Length>
+          <Width>17.6250</Width>
+          <Height>4.0200</Height>
+          <DimUOM>IN</DimUOM>
+          <Weight>24.7000</Weight>
+          <WeightUOM>LBS</WeightUOM>
+          <UOM>EA</UOM>
+          <QtyPerUOM>1</QtyPerUOM>
+          <Barcodes>
+            <Barcode>
+              <ID>4959112073487</ID>
+              <Type>GTIN-13</Type>
+            </Barcode>
+          </Barcodes>
+        </Container>
+      </Containers>
+      <MarketingInfo>
+        <PrimaryCategory>1018176583</PrimaryCategory>
+        <Bullets />
+        <Media>
+          <Images>
+            <Image Audience="Consumer" View="Primary">http://dealers.korgusa.com/images/product/SPST1WWH.png</Image>
+          </Images>
+        </Media>
+      </MarketingInfo>
+      <Availability>
+        <Available>YES</Available>
+      </Availability>
+    </Item>
+
+
+    <Item>
+      <SupplierItemId>SP170WHK</SupplierItemId>
+      <SupplierModel>SP170WHK</SupplierModel>
+      <SupplierItemDesc>White stand and SP170WH Bundle</SupplierItemDesc>
+      <Kit>Y</Kit>
+      <Serialized>N</Serialized>
+      <BrandName>KORG</BrandName>
+      <CountryOrigin>CN</CountryOrigin>
+      <AnnounceDate>2009-12-15</AnnounceDate>
+      <AvailableDate>2009-12-15</AvailableDate>
+      <WarrantyPartTerm>365</WarrantyPartTerm>
+      <WarrantyPartUOM>Day</WarrantyPartUOM>
+      <WarrantyLabTerm>0</WarrantyLabTerm>
+      <WarrantyLabUOM>Day</WarrantyLabUOM>
+      <Barcodes>
+        <Barcode>
+          <ID>4959112073490</ID>
+          <Type>GTIN-13</Type>
+        </Barcode>
+      </Barcodes>
+      <Pricing>
+        <Price type="MSRP" Currency="USD">725.00</Price>
+        <Price type="MAP" Currency="USD">525.00</Price>
+        <Price type="Cost" Currency="USD" Qty="1">270.00</Price>
+      </Pricing>
+      <KitItems>
+        <KitItem>
+		<SupplierItemId>SP170WH</SupplierItemId>
+		<Qty>1</Qty>
+		<UOM>EA</UOM>
+		<Barcodes>
+        		<Barcode>
+          		<ID>4959112073463</ID>
+          		<Type>GTIN-13</Type>
+        		</Barcode>
+      		</Barcodes>
+        </KitItem>
+        <KitItem>
+		<SupplierItemId>SPST1WWH</SupplierItemId>
+		<Qty>1</Qty>
+		<UOM>EA</UOM>
+		<Barcodes>
+        		<Barcode>
+          		<ID>4959112073487</ID>
+          		<Type>GTIN-13</Type>
+        		</Barcode>
+      		</Barcodes>
+        </KitItem>
+      </KitItems>
+      <MarketingInfo>
+        <PrimaryCategory>4018162506</PrimaryCategory>
+        <ProductURL>www.korg.com/sp170</ProductURL>
+        <ItemDescLong>Offering an affordable, portable and rewarding piano solution, the streamlined SP-170 features an authentic piano feel and 10 captivating sounds - including two superb grands - to satisfy the student, novice, or seasoned player. The clean, fresh design omits the traditional control panel, emphasizing instead the comfortable keyboard and satisfying sound.</ItemDescLong>
+        <Bullets>
+          <Bullet>Korg's 88-key Natural Weighted Hammer Action (NH) keyboard offers a true piano touch</Bullet>
+          <Bullet>10 Sounds: Piano x 2; E. Piano x 2; Harpsichord; Clavi; Vibraphone; Pipe Organ; Jazz Organ; Strings</Bullet>
+          <Bullet>Reverb + Chorus effects; Transpose; Pitch Control; MIDI functions (MIDI Out); Damper pedal included</Bullet>
+          <Bullet>Built-in sound system: 9 Watt stereo amplifier, 2 full-range speakers; 2 line/headphone outputs</Bullet>
+          <Bullet>Elegant white finish; optional matching wooden stand (SPST-1W-WH) available</Bullet>
+        </Bullets>
+        <Media>
+          <Images>
+            <Image Audience="Consumer" View="Primary">http://dealers.korgusa.com/images/product/SP170WH.png</Image>
+          </Images>
+        </Media>
+      </MarketingInfo>
+      <Availability>
+        <Available>YES</Available>
+      </Availability>
+    </Item>
+
+  </Items>
+</NAMM_ITEM>

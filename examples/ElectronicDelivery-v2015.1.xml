@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NAMM_ElectronicDeliveryResponse 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://namm.org/b2b/2009/schemas"
+	version="2015.1">
+  <Timestamp>2015-01-25T10:46:54</Timestamp>
+  <POId>ThisDocumentIDNumber</POId>
+  <BuyerOrderId>432543</BuyerOrderId>
+  <StatusCode>C01</StatusCode>
+  <StatusMessage>Received</StatusMessage>
+  <Items>
+    <Item>
+      <SupplierItemId>BogusProduct</SupplierItemId>
+      <POLineNbr>1</POLineNbr>
+      <BarCodeId>761294084991</BarCodeId>
+      <BarCodeType>GTIN-12</BarCodeType>
+      <Qty>1</Qty>
+      <QtyUOM>EA</QtyUOM>
+      <UCValue>39.00</UCValue>
+      <UCCurrencyCode>USD</UCCurrencyCode>
+      <DownloadPath>http://www.softwarecompany.com/cgi-bin/WebObjects/LicenseApp</DownloadPath>
+      <SupportContact>www.softwarecompany.com/xsupport.php</SupportContact>
+      <Licenses>
+        <License>1234-1234-5678-6789-1111</License>
+      </Licenses>
+    </Item>
+    <Item>
+      <SupplierItemId>GoodProduct</SupplierItemId>
+      <POLineNbr>2</POLineNbr>
+      <BarCodeId>761294084992</BarCodeId>
+      <BarCodeType>GTIN-12</BarCodeType>
+      <Qty>1</Qty>
+      <QtyUOM>EA</QtyUOM>
+      <UCValue>100.00</UCValue>
+      <UCCurrencyCode>USD</UCCurrencyCode>
+      <DownloadPath>http://www.softwarecompany.com/cgi-bin/WebObjects/LicenseApp</DownloadPath>
+      <SupportContact>www.softwarecompany.com/xsupport.php</SupportContact>
+      <Licenses>
+        <License>1234-1234-5678-6789-4321</License>
+      </Licenses>
+    </Item>
+  </Items>
+</NAMM_ElectronicDeliveryResponse>

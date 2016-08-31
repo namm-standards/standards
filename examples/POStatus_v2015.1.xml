@@ -1,0 +1,133 @@
+﻿<NAMM_POStatus xmlns="http://namm.org/b2b/2015/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2015.1" xsi:schemaLocation="http://namm.org/b2b/2015/schemas POStatus_v2015.1.xsd">
+  <Id>B78DD4DC-09EB-4D47-AD3C-FF2105399CDE</Id>
+  <POStatusRequestId>8814043038988</POStatusRequestId>
+  <Timestamp>2014-05-07T01:21:44.107</Timestamp>
+  <BuyerOrderId>8814043038988</BuyerOrderId>
+  <DateOrdered>2014-05-01</DateOrdered>
+  <BuyerName />
+  <Supplier>
+    <PartyId>0670716000009</PartyId>
+    <Name>Korg USA Inc.</Name>
+    <Address>
+      <Attn />
+      <Address1>316 S SERVICE RD</Address1>
+      <Address2 />
+      <Address3 />
+      <City>MELVILLE</City>
+      <State>NY</State>
+      <PostalCode>117473228</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </Supplier>
+  <SoldTo>
+    <PartyId>698765768754</PartyId>
+    <Name>Bill's Music</Name>
+    <Address>
+      <Attn>Accounts Payable</Attn>
+      <Address1>1 FLUSHING AVE</Address1>
+      <Address2></Address2>
+      <Address3 />
+      <City>BROOKLYN</City>
+      <State>NY</State>
+      <PostalCode>11205</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </SoldTo>
+  <StatusCode />
+  <PaymentTerms>
+    <StatusCode>0</StatusCode>
+    <StatusMessage />
+    <TermsCode />
+  </PaymentTerms>
+  <ShipmentTerms>
+    <StatusCode>0</StatusCode>
+  </ShipmentTerms>
+  <ShipTo>
+    <PartyId>NAVY</PartyId>
+    <Name>Bill's Music</Name>
+    <Address>
+      <Attn />
+      <Address1>1 FLUSHING AVE</Address1>
+      <Address2></Address2>
+      <Address3 />
+      <City>BROOKLYN</City>
+      <State>NY</State>
+      <PostalCode>11205</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </ShipTo>
+  <Items>
+    <Item>
+      <POLineNbr>1</POLineNbr>
+      <SequenceNbr>1</SequenceNbr>
+      <StatusCode>Changes</StatusCode>
+      <StatusMessage />
+      <Qty>1</Qty>
+      <OriginalOrderQty>1</OriginalOrderQty>
+      <QtyUOM>EA</QtyUOM>
+      <UCValue>47.00</UCValue>
+      <OriginalOrderUCValue>30.75</OriginalOrderUCValue>
+      <UCCurrencyCode>USD</UCCurrencyCode>
+      <EstimatedShipDate>2014-05-07</EstimatedShipDate>
+      <SupplierOrderId>OM99574453</SupplierOrderId>
+      <BuyerItemId>KXXFKM2</BuyerItemId>
+      <SupplierItemId>XFKM2</SupplierItemId>
+      <BarCodeId />
+      <BarCodeType>PartNumber</BarCodeType>
+  <ShipTo>
+    <PartyId>NAVY</PartyId>
+    <Name>Bill's Music</Name>
+    <Address>
+      <Attn />
+      <Address1>1 FLUSHING AVE</Address1>
+      <Address2></Address2>
+      <Address3 />
+      <City>BROOKLYN</City>
+      <State>NY</State>
+      <PostalCode>11205</PostalCode>
+      <Country>USA</Country>
+      <CountryCode>US</CountryCode>
+    </Address>
+  </ShipTo>
+    </Item>
+    <Item>
+      <POLineNbr>2</POLineNbr>
+      <SequenceNbr>1</SequenceNbr>
+      <StatusCode>Changes</StatusCode>
+      <StatusMessage />
+      <Qty>2</Qty>
+      <OriginalOrderQty>6</OriginalOrderQty>
+      <QtyUOM>EA</QtyUOM>
+      <UCValue>16.80</UCValue>
+      <OriginalOrderUCValue>16.80</OriginalOrderUCValue>
+      <UCCurrencyCode>USD</UCCurrencyCode>
+      <EstimatedShipDate>2014-06-12</EstimatedShipDate>
+      <SupplierOrderId>OM99574453</SupplierOrderId>
+      <BuyerItemId>KXGA1</BuyerItemId>
+      <SupplierItemId>GA1</SupplierItemId>
+      <BarCodeId>4959112069329</BarCodeId>
+      <BarCodeType>GTIN-13</BarCodeType>
+    </Item>
+    <Item>
+      <POLineNbr>2</POLineNbr>
+      <SequenceNbr>2</SequenceNbr>
+      <StatusCode>Changes</StatusCode>
+      <StatusMessage />
+      <Qty>4</Qty>
+      <OriginalOrderQty>6</OriginalOrderQty>
+      <QtyUOM>EA</QtyUOM>
+      <UCValue>16.80</UCValue>
+      <OriginalOrderUCValue>16.80</OriginalOrderUCValue>
+      <UCCurrencyCode>USD</UCCurrencyCode>
+      <SupplierOrderId>OM99574453</SupplierOrderId>
+      <BuyerItemId>KXGA1</BuyerItemId>
+      <SupplierItemId>GA1</SupplierItemId>
+      <BarCodeId>4959112069329</BarCodeId>
+      <BarCodeType>GTIN-13</BarCodeType>
+
+    </Item>
+  </Items>
+</NAMM_POStatus>
