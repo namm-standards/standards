@@ -1,0 +1,8 @@
+title: Standards
+description: NAMM Standards
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-tactile
+
+gems:
+  - jekyll-mentions
