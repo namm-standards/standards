@@ -1,7 +1,7 @@
 title: NAMM Standards
 description: B2B Standards for the Music Product Industry
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-tactile
 
 gems:
