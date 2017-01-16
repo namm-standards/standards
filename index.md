@@ -69,3 +69,5 @@ have partnered together to design a tool to enhance your business practices.
  This document details the information necessary for trading partners like you to begin to implement
  and automate transactions using this standard. NAMM encourages you and your business partners to
   adopt and use these standardized data transfer formats.</p>
+
+[XML Files](XMLFiles)
