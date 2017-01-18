@@ -1,0 +1,3 @@
+## Functional Acknowledgement
+
+The Functional Acknowledgement document, FunAck-v2009.1.xml, is a simple notification from party to party acknowledging the receipt of another transaction such as an item document, purchase order, advanced shipment notice, or invoice. It may also provide information indicating the status of the transactional document. This document is used repeatedly throughout the supply chain.
