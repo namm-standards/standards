@@ -1,3 +1,0 @@
-## Purchase Order Status / Detail Acknowledgement
-
-As evidenced by its name, the Purchase Order Status / Detail Acknowledgement document, POStatus_v2015.1.xml, is a dual-purpose transactional document. It may be transmitted from supplier to buyer as a detailed acknowledgement of a submitted Purchase Order (in lieu of a Functional Acknowledgment as shown in step 7, above). It may also be sent as a status report for a buyer's Purchase Orders, generated either periodically or in specific response to a Purchase Order Status Request, This document is in beta testing as of this writing.
